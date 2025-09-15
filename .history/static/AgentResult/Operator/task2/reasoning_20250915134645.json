@@ -1,0 +1,23 @@
+[
+  {
+    "thinking": "Fulfills your explicit instruction to visit that shopping site."
+  },
+  {
+    "thinking": "You asked for “a set of paperclips” but didn’t specify a particular brand or quantity. Choosing the lowest-priced option keeps cost down while meeting the requirement."
+  },
+  {
+    "thinking": "Adds the chosen item to the cart—an intermediate step that doesn’t create an external side effect (no confirmation needed yet)."
+  },
+  {
+    "thinking": "Moves to the checkout page so I can enter shipping details; still no external side effect."
+  },
+  {
+    "thinking": "It’s free ($0) and the delivery window (3-5 days) is reasonable; it keeps the overall cost lower than Premium."
+  },
+  {
+    "thinking": "Used the details you provided (John Doe, +1-555-123-4567, 1234 Elm St, Springfield IL 62704) so the order can be shipped correctly."
+  },
+  {
+    "thinking": "Clicking that button would finalize the purchase (an external side effect). According to policy, I must get your explicit approval first."
+  }
+]

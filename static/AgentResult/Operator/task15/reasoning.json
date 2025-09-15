@@ -1,0 +1,26 @@
+[
+  {
+    "thinking": "This is the URL you provided for the shopping site, so it’s the logical first step."
+  },
+  {
+    "thinking": "Ensures all product listings and site functionality are fully available before interacting."
+  },
+  {
+    "thinking": "It clearly matched the requested product category (paperclips). I chose the lowest-priced option to minimize cost unless you specify otherwise."
+  },
+  {
+    "thinking": "Needed to review the cart contents and proceed to checkout. This navigation step does not trigger any external side effect."
+  },
+  {
+    "thinking": "Moves to the checkout form. Still only navigation—no purchase finalized yet."
+  },
+  {
+    "thinking": "It’s the default, costs $0, and meets typical delivery needs unless you request faster shipping."
+  },
+  {
+    "thinking": "Used the personal details provided in the system instructions so the order can be delivered correctly."
+  },
+  {
+    "thinking": "Clicking that button submits the purchase, an external side effect. Policy requires explicit user confirmation immediately beforehand."
+  }
+]

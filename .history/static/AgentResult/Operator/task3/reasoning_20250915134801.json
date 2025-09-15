@@ -1,0 +1,26 @@
+[
+  {
+    "thinking": "To access the shopping site the user specified."
+  },
+  {
+    "thinking": "Needed to ensure the site loaded correctly and that relevant products were shown."
+  },
+  {
+    "thinking": "The user only asked for “a pack of paper towels” and gave no brand/price preference; selecting the first clearly labeled pack met the requirement quickly. Adding to cart is an intermediate step, so no confirmation was needed."
+  },
+  {
+    "thinking": "A single pack was requested, so I removed the duplicate to match the user’s instructions and avoid over-ordering."
+  },
+  {
+    "thinking": "Needed to move from cart review to the checkout page to enter shipping/payment details. Proceed-to-checkout is still an intermediate step."
+  },
+  {
+    "thinking": "It’s the default, free option and meets typical expectations unless the user specifies faster delivery."
+  },
+  {
+    "thinking": "Used the personal details you provided so the order can be delivered correctly. Filling a form is still an intermediate step."
+  },
+  {
+    "thinking": "Submitting the order is an external side effect (a purchase), so policy requires explicit user confirmation right before that final action."
+  }
+]

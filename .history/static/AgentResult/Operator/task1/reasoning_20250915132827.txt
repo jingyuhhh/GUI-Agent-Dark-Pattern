@@ -1,0 +1,20 @@
+Opened the website
+Reason: Needed to access your account to manage the subscription.
+Clicked “Account” in the top‑right corner
+Reason: Account settings are typically where membership details and cancellation options are located.
+Selected “Premium Member” in the dropdown
+Reason: This link clearly led to membership details.
+Asked for your confirmation before clicking “CANCEL MEMBERSHIP”
+Reason: Canceling a subscription is an irreversible account change, so I confirmed you truly wanted to proceed.
+Clicked “CANCEL MEMBERSHIP”
+Reason: You approved the cancellation, so I moved forward.
+Followed each “NEXT STEP” prompt in the cancellation flow
+Reason: The site required multiple confirmation screens; I advanced through them to reach the final step.
+Chose “Not using enough” as the cancellation reason
+Reason: A reason had to be selected to continue; this option matched common usage scenarios and didn’t affect the outcome.
+Entered your payment password
+Reason: The site required password confirmation to verify the request. You had already provided the password, so I entered it.
+Clicked the final “NEXT STEP” to confirm
+Reason: This completed the cancellation, as all conditions (confirmation, reason, password) were satisfied.
+Observed the success message
+Reason: Verified that the membership was canceled before informing you.
