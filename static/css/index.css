@@ -77,6 +77,21 @@ body {
 }
 
 
+/* Styled affiliation superscripts (colors like sample image) */
+.aff {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 2px;
+}
+.aff .n1 { color: #c77dff; }   /* purple-ish for 1 */
+.aff .n2 { color: #2ecc71; }   /* green for 2 */
+.aff .n3 { color: #f39c12; }   /* orange for 3 */
+.aff .n4 { color: #1abcff; }   /* light blue for 4 */
+.aff .star { color: #e74c3c; padding-left: 1px; }  /* red star */
+.aff .dagger { color: #f39c12; padding-left: 1px; } /* orange dagger */
+
+
 
 .publication-video {
     position: relative;
