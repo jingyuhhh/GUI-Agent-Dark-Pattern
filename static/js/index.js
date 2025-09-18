@@ -80,19 +80,18 @@ $(document).ready(function () {
   // Add collapsible functionality for findings
   $(".finding-header").on("click", function () {
     var content = $(this).next(".finding-content");
-    content.slideToggle();
+    var icon = $(this).find(".expand-icon");
+    content.slideToggle(function () {
+      // Toggle icon after animation completes
+      if (content.is(":visible")) {
+        icon.text("▲");
+      } else {
+        icon.text("▼");
+      }
+    });
   });
 
-  // Add hover functionality for findings
-  $(".finding-container").on("mouseenter", function () {
-    var content = $(this).find(".finding-content");
-    content.slideDown();
-  });
-
-  $(".finding-container").on("mouseleave", function () {
-    var content = $(this).find(".finding-content");
-    content.slideUp();
-  });
+  // Remove hover functionality - now using click only
 });
 
 // Functions for Phase 2 comparison hover effects
@@ -110,17 +109,7 @@ function hideDetails(elementId) {
   }
 }
 
-// Function for toggling finding content
-function toggleFinding(elementId) {
-  var element = document.getElementById(elementId);
-  if (element) {
-    if (element.style.display === "none" || element.style.display === "") {
-      element.style.display = "block";
-    } else {
-      element.style.display = "none";
-    }
-  }
-}
+// Function for toggling finding content (no longer needed - using unified jQuery handler)
 
 // Function for toggling reasoning log
 function toggleReasoningLog(headerElement) {
